@@ -1,0 +1,42 @@
+#clockdiv{
+    position: relative;
+    margin: auto;
+    height: 50vw;
+    width: 50vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour,#min,#sec{
+    position: absolute;
+    background-color:#1a1a1a;
+    border-radius: 20px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left:50%;
+    opacity: 0.8;
+}
+#min{
+    width: 1.5%;
+    height: 30%;
+    top: 20%;
+    left:50%;
+    opacity: 0.8;
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left:50%;
+    opacity: 0.8;
+}
+#tim{
+    position: absolute;   
+    bottom: 30%;
+    left: 42%;
+    font-family: monospace;
+    font-size: larger;
+}
